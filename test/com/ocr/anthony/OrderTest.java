@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
@@ -37,7 +38,7 @@ public class OrderTest {
         assertEquals("Vous avez choisi le menu 3\n", outContent.toString().replace("\r\n", "\n"));
     }*/
 
-    //step-2
+// step-2
 
     @Test
     public void Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence() {
@@ -64,4 +65,15 @@ public class OrderTest {
         order.displaySelectedMenu(-6);
         assertEquals("Vous n'avez pas choisi de menu parmi les choix proposés\n", outContent.toString().replace("\r\n", "\n"));
     }
+// step-3
+    @Test
+    public void Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess() {
+        System.setIn(new ByteArrayInputStream("1\n".getBytes()));
+        order = new Order();
+        order.runMenu();
+        String output = outContent.toString().replace("\r\n", "\n");
+        assertEquals(output.endsWith("Vous avez choisi comme menu : poulet\n"), true);
+        assertEquals(output.length() > "Vous avez choisi comme menu : poulet\n".length(), true);
+    }
 }
+
