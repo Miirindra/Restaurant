@@ -5,7 +5,7 @@ public class Order {
      * Display all available menus in the restaurant.
      */
     public void displayAvailableMenu() {
-        System.out.println("Choix menu\n 1 - Poulet\n 2 - Boeuf\n 3 - végétarien");
+        System.out.println("Choix menu\n1 - Poulet\n2 - Boeuf\n3 - végétarien");
         System.out.println("Que souhaitez-vous comme menu ?");
     }
     /**
