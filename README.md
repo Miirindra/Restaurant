@@ -1,1 +1,1 @@
-# MyMenu Project for Java Bases - Step 1
+# MyMenu Project for Java Bases
