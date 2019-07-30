@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="467af060-c2b6-40d8-b1bc-bdaf0a98b9c8" name="Default Changelist" comment="">
+    <list default="true" id="467af060-c2b6-40d8-b1bc-bdaf0a98b9c8" name="Default Changelist" comment="Add behavior in order:&#10;-method displayAvailableMenu&#10;-method displaySelectedMenu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyMenu-I/com/ocr/anthony/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMenu-I/com/ocr/anthony/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MyMenu-I/com/ocr/anthony/OrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MyMenu-I/com/ocr/anthony/OrderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/anthony/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/anthony/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/ocr/anthony/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/anthony/OrderTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +66,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderTest.Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMenu-I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.anthony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.anthony" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
+      <option name="METHOD_NAME" value="Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.Given_Vegetarian_When_AskForMenuSelected_Then_ShouldDisplayCorrectSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMenu-I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.anthony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.anthony" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
+      <option name="METHOD_NAME" value="Given_Vegetarian_When_AskForMenuSelected_Then_ShouldDisplayCorrectSentence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.OrderTest.Given_Vegetarian_When_AskForMenuSelected_Then_ShouldDisplayCorrectSentence" />
+        <item itemvalue="JUnit.OrderTest.Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564480896810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add behavior in order:&#10;-method displayAvailableMenu&#10;-method displaySelectedMenu">
+      <created>1564485311985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564485311985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
