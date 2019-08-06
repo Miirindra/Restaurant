@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="467af060-c2b6-40d8-b1bc-bdaf0a98b9c8" name="Default Changelist" comment="" />
+    <list default="true" id="467af060-c2b6-40d8-b1bc-bdaf0a98b9c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyMenu-I/com/ocr/anthony/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMenu-I/com/ocr/anthony/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MyMenu-I/com/ocr/anthony/OrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/MyMenu-I/com/ocr/anthony/OrderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/anthony/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/anthony/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/ocr/anthony/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/anthony/OrderTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest.Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.Main" />
-      <module name="MyMenu-I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ocr.anthony.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OrderTest">
     <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu-I" />
       <extension name="coverage">
@@ -60,7 +53,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_BadValue_When_DisplayDrinkSelected_Then_DisplayErrorSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu-I" />
       <extension name="coverage">
         <pattern>
@@ -70,13 +63,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.anthony" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
-      <option name="METHOD_NAME" value="Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence" />
+      <option name="METHOD_NAME" value="Given_BadValue_When_DisplayDrinkSelected_Then_DisplayErrorSentence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_ChikenWithFriesAndWaterInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu-I" />
       <extension name="coverage">
         <pattern>
@@ -86,13 +79,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.anthony" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
-      <option name="METHOD_NAME" value="Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" />
+      <option name="METHOD_NAME" value="Given_ChikenWithFriesAndWaterInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_Vegetarian_When_AskForMenuSelected_Then_ShouldDisplayCorrectSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_Soda_When_DisplayDrinkSelected_Then_DisplaySodaSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu-I" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +95,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.anthony" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
-      <option name="METHOD_NAME" value="Given_Vegetarian_When_AskForMenuSelected_Then_ShouldDisplayCorrectSentence" />
+      <option name="METHOD_NAME" value="Given_Soda_When_DisplayDrinkSelected_Then_DisplaySodaSentence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.Given_SparklingWater_When_DisplayDrinkSelected_Then_DisplaySparklingWaterSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMenu-I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.anthony.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.anthony" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
+      <option name="METHOD_NAME" value="Given_SparklingWater_When_DisplayDrinkSelected_Then_DisplaySparklingWaterSentence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderTest.Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="JUnit.OrderTest.Given_Vegetarian_When_AskForMenuSelected_Then_ShouldDisplayCorrectSentence" />
-        <item itemvalue="JUnit.OrderTest.Given_Chicken_When_DisplayMenuSelected_Then_DisplayChickenSentence" />
+        <item itemvalue="JUnit.OrderTest.Given_ChikenWithFriesAndWaterInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" />
+        <item itemvalue="JUnit.OrderTest.Given_Soda_When_DisplayDrinkSelected_Then_DisplaySodaSentence" />
+        <item itemvalue="JUnit.OrderTest.Given_SparklingWater_When_DisplayDrinkSelected_Then_DisplaySparklingWaterSentence" />
+        <item itemvalue="JUnit.OrderTest.Given_BadValue_When_DisplayDrinkSelected_Then_DisplayErrorSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564495838723</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add behavior in order:&#10;-method runMenu&#10;-Test in step-3&#10;&#10;-code reorganization (in class Main to Order)">
+      <created>1564496106469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564496106469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
